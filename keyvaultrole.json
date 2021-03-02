@@ -1,0 +1,14 @@
+{
+    "Name": "Key Vault CM resource manager template deployment operator",
+    "IsCustom": true,
+    "Description": "Lets you deploy a resource manager template with the access to the secrets in the Key Vault.",
+    "Actions": [
+      "Microsoft.KeyVault/vaults/deploy/action"
+    ],
+    "NotActions": [],
+    "DataActions": [],
+    "NotDataActions": [],
+    "AssignableScopes": [
+      "/subscriptions/e42acc2d-8462-4fb5-bf0d-d983c0017584/resourceGroups/identity/providers/Microsoft.KeyVault/vaults/cm-identity-kv"
+    ]
+  }
